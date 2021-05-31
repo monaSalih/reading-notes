@@ -8,12 +8,13 @@ formatting words as bold or italic, adding images, and creating lists are just
 a few of the things we can do with Markdown. Mostly, Markdown is just regular 
 text with a few non-alphabetic characters thrown in, like # or *.
 
-** also we can use Markdown in: **
-*Gists
+**also we can use Markdown in:**
 
-*Comments in Issues and Pull Requests 
+* Gists
 
-*Files with the .md or .markdown extension
+* Comments in Issues and Pull Requests 
+
+* Files with the .md or .markdown extension
  
  for more information you can visit [Writing on GitHub](https://help.github.com/categories/writing-on-github/)
   
