@@ -54,8 +54,10 @@ I think you should use an
  
   
 >images
-   ![ image name]( but the image link )
-
+  
+ ```javascript
+ ![ image name]( but the image link )
+```
   
   
   ## GitHub Flavored Markdown
