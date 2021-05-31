@@ -54,7 +54,7 @@ I think you should use an
  
   
 >images
-   ![ image name](but the image link )
+   ![ image name]( but the image link )
 
   
   
@@ -77,8 +77,9 @@ Content in the first column | Content in the second column
   
  >Automatic linking for URLs
 Any URL (page link) will be automatically converted into a clickable link.
-  
-  
+ 
+ 
+ ![GitHub Logo](https://e3arabi.com/wp-content/uploads/2021/02/github.jpeg)
  # GitHup
   
   ### is a website help software developer to do great thing such as help people
