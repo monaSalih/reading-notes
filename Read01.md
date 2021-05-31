@@ -2,7 +2,7 @@
 
 # Mastering Markdown
 
-### *_Markdown_*
+### *Markdown*
 is is a way to style text on the web. You control the display of the document;
 formatting words as bold or italic, adding images, and creating lists are just 
 a few of the things we can do with Markdown. Mostly, Markdown is just regular 
@@ -19,40 +19,49 @@ text with a few non-alphabetic characters thrown in, like # or *.
  for more information you can visit [Writing on GitHub](https://help.github.com/categories/writing-on-github/)
   
   These how you can use it:
-  ### Text:
+
   
 > Headers
-#This is an <h1> tag
-##This is an <h2> tag
-######This is an <h6> tag
+```
+  #This is an h1 tag
+ 
+##This is an h2 tag
+ 
+######This is an h6 tag
+```
   
 > Emphasis
+```
 * This text will be italic *
 _ This will also be italic _
 
 ** This text will be bold **
 __ This will also be bold __
-
+```
 
 > Lists 
-Unordered
+Unordered 
+ ```
 *Item 1
-*Item 2
+*Item 2 
+```
   
 > Ordered
+ ```
 1. Item 1
 2. Item 2
 3.Item 3
-  
-### Blockquotes
-As Kanye West said:
+  ```
+ ### Blockquotes
+``` As Kanye West said:
 >We're living the future so
 >the present is our past.
-  
+  ``` 
  ### Inline code
+``` 
 I think you should use an
 > element here instead.
- 
+``` 
   
 >images
   
