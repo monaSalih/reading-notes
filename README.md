@@ -9,5 +9,5 @@
 File name | Link Page
 ------------ | -------------
 Lab01 | [Lab01](http://https://replit.com/@monaalobisat/reading-notes#lab01.md)
-Read01 | [Read01](https://replit.com/@monaalobisat/reading-notes#Read01.md)]
+Read01 | [Read01](https://replit.com/@monaalobisat/reading-notes#Read01.md)
 New Lab | []()
