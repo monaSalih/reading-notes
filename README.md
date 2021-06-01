@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 ** Small Brief About me: **
+=======
+>>>>>>> 77d40e0da34cc8b4037ba7bda519fe9310d5256c
 # My name is Mona Salih ,graduated cs from Muta'h university ,volunteering as trainer in Muta'h university .I joined this course to developed my skill in programming through tasks and challenges 
 ## Kindly you can visite my githup page [here!](https://github.com/monaSalih)
 
