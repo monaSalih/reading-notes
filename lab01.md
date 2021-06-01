@@ -1,3 +1,8 @@
+# _ My name is Mona Salih ,graduated cs from Muta'h university ,volunteering as trainer in Muta'h university .I joined this course to developed my skill in programming through tasks and challenges _
+## Kindly you can visite my githup page [here!](https://github.com/monaSalih)
+
+
+
 # A Growth mindset
 
 **It's the way you developed your prain ability to become more creative and possibility, and enable the setting of higher goals and more achievement.**
@@ -52,5 +57,5 @@ so i learn to ask your self:
 always thinking positively and try tp share my coworker happienes and succesed and motivation to improve my worke and make better
 
 
-## Kindly you can vissit my githup page [here!](https://github.com/monaSalih)
+
  
