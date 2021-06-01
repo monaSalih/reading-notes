@@ -11,4 +11,4 @@ File name | Link Page
 ------------ | -------------
 Lab01 | [Lab01](lab01.md)
 Read01 | [Read01](Read01.md)
-Lab02 | [Lab02](https://replit.com/@monaalobisat/reading-notes#lab02.md)
+Lab02 | [Lab02](lab02.md)
