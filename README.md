@@ -11,4 +11,4 @@ File name | Link Page
 ------------ | -------------
 Lab01 | [Lab01](lab01.md)
 Read01 | [Read01](Read01.md)
-New Lab | []()
+Lab02 | [lab02](lab02.md)
