@@ -83,3 +83,123 @@ You can put elements inside other elements too — this is called nesting. like 
 
     
 # Anatomy of an HTML document
+
+That wraps up the basics of individual HTML elements, but they aren't handy on their own
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+  </head>
+  <body>
+    <img src="images/firefox-icon.png" alt="My test image">
+  </body>
+</html>
+
+```
+* <!DOCTYPE html>: mean to act as links to a set of rules that the HTML page had to follow to be considered good HTML, which could mean automatic error checking and other useful things.
+
+
+* <html></html>: This element wraps all the content on the entire page and is sometimes known as the root element.
+
+* <head></head>: This element acts as a container for all the stuff you want to include on the HTML page that isn't the content you are showing to your page's viewers. 
+
+* <meta charset="utf-8">: This element sets the character set your document should use to UTF-8 which includes most characters from the vast majority of written languages. 
+
+* <title></title>: This sets the title of your page, which is the title that appears in the browser tab the page is loaded in. 
+
+* <body></body>: This contains all the content that you want to show to web users when they visit your page, whether that's text, images, videos, games, playable audio tracks, or whatever else.
+
+## Images
+Let's turn our attention to the <img> element again:
+```
+<img src="images/firefox-icon.png" alt="My test image">
+```
+
+## Marking up text
+This section will cover some of the essential HTML elements you'll use for marking up the text.
+
+### Headings
+Heading elements allow you to specify that certain parts of your content are headings . HTML contains 6 heading levels, <h1>–<h6>, although you'll commonly only use 3 to 4 at most:
+```
+<h1>My main title</h1>
+<h2>My top level heading</h2>
+<h3>My subheading</h3>
+<h4>My sub-subheading</h4>
+```
+### Paragraphs
+As explained above, <p> elements are for containing paragraphs of text:
+```
+<p>This is a single paragraph</p>
+Add your sample text (you should have it from What will your website look like?) into one or a few paragraphs, placed directly below your <img> element.
+```
+
+### Lists
+The most common list types are ordered and unordered lists:
+
+* Unordered lists are for lists where the order of the items doesn't matter, such as a shopping list. These are wrapped in a <ul> element.
+
+* Ordered lists are for lists where the order of the items does matter, such as a recipe. These are wrapped in an <ol> element.
+Each item inside the lists is put inside an <li> (list item) element.
+
+For example:
+```
+<p>At Mozilla, we’re a global community of technologists, thinkers, and builders working together ... </p>
+We could modify the markup to this
+
+<p>At Mozilla, we’re a global community of</p>
+
+<ul>
+  <li>technologists</li>
+  <li>thinkers</li>
+  <li>builders</li>
+</ul>
+
+<p>working together ... </p>
+
+```
+### Links
+Links are very important — they are what makes the web a web! To add a link, we need to use a simple element — <a> — "a" being the short form for "anchor". 
+```
+<a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a>
+```
+
+# Semantics
+In programming, Semantics refers to the meaning of a piece of code — for example "what effect does running that line of JavaScript have?", or "what purpose or role does that HTML element have" (rather than "what does it look like?".)
+
+## Semantics in JavaScript
+In JavaScript, consider a function that takes a string parameter, and returns an <li> element with that string as its textContent. 
+
+## Semantics in CSS
+In CSS, consider styling a list with li elements representing different types of fruits.
+
+## Semantics in HTML
+
+In HTML, for example, the <h1> element is a semantic element, which gives the text it wraps around the role (or meaning) of "a top level heading on your page."
+
+```
+<h1>This is a top level heading</h1>
+```
+On the other hand, you could make any element look like a top level heading. Consider the following:
+
+``` 
+<span style="font-size: 32px; margin: 21px 0;">Is this a top level heading?</span>
+```
+## Semantic elements
+These are some of the roughly 100 semantic elements available:
+
+* <article>
+* <aside>
+* <details>
+* <figcaption>
+* <figure>
+* <footer>
+* <header>
+* <main>
+* <mark>
+* <nav>
+* <section>
+* <summary>
+* <time>
