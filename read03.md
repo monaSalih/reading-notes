@@ -189,7 +189,7 @@ On the other hand, you could make any element look like a top level heading. Con
 ```
 ## Semantic elements
 These are some of the roughly 100 semantic elements available:
-
+```
 * <article>
 * <aside>
 * <details>
@@ -203,3 +203,5 @@ These are some of the roughly 100 semantic elements available:
 * <section>
 * <summary>
 * <time>
+
+```
