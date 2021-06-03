@@ -72,7 +72,8 @@ attribute should always have the following:
 # Nesting elements
 You can put elements inside other elements too — this is called nesting. like following:
 
-	``` <p>My cat is <strong>very</strong> grumpy.</p>
+	``` 
+  <p>My cat is <strong>very</strong> grumpy.</p>
   
   # Empty elements
 
@@ -189,7 +190,7 @@ On the other hand, you could make any element look like a top level heading. Con
 ```
 ## Semantic elements
 These are some of the roughly 100 semantic elements available:
-
+```
 * <article>
 * <aside>
 * <details>
@@ -203,3 +204,5 @@ These are some of the roughly 100 semantic elements available:
 * <section>
 * <summary>
 * <time>
+
+```
