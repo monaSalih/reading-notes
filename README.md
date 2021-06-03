@@ -1,16 +1,6 @@
 ![MyPic](Mona.PNG)
 
 
-[learn more](http://wikipedia.com)
-
-![Check out this COOL penguin!](https://i.scdn.co/image/1ed504590ddbe23b3dae738319681bb729c964a5)
-
-[Check out this COOL penguin!](/images/penguins.jpg)
-
-
-
-In GitHub markdown <ins>text</ins>works just fine.
-[My GitHub Link](https://github.com/)
 
 ** Small Brief About me: **
 
