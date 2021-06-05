@@ -99,7 +99,7 @@ Any URL (page link) will be automatically converted into a clickable link.
   you can sharing portfolio, project and decumenation ...etc. 
   
   #### If you need to built Ambition project such as blog or structured decumenrty you can use _Jekyll_.
-=================================  
+
   **Jekyll:** is open source tool that transformation text file into website but is also support thing like variable 
   templet and draft which give you more control for website.
   
