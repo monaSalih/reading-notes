@@ -446,8 +446,111 @@ The wireframes make design easier because you know what information needs to app
  
  
  # JAVASCRIPT & JQUERY
+  
+ This book explains how JavaScript can be used in browsers to make websites more interactive, interesting, and user-friendly. You will also learn about jQuery because it makes writing JavaScript a lot easier.
+ ![jsintro](jsintro.PNG)
+ 
+## How JavaScript Makes Web Pages More Interactive
 
+1 ACCESS CONTENT
+ You can use JavaScript to select any element, attribute, or text from an HTML page. 
+ 
+ 2 MODIFY CONTENT
+You can use JavaScript to add elements, attributes, and text to the page, or remove them. 
+ 
+ 3 PROGRAM RULES
+You can specify a set of steps for the browser to follow (like a recipe), which allows it to access or change the content of a page
+ 
+ 4 REACT TO EVENTS 
 
+ You can specify that a script should run when a specific event has occurred. 
+ 
+ # The ABC of Programming
+ 
+ >Before you learn how to read and write the JavaScript language itself, you need to become familiar with some key concepts in computer programming. They will be covered in three sections:
+ ![abc](abc.PNG)
+ 
+ # What Is A Script And How Do I Create One?
+ 
+ >A script is a series of instructions that a computer can follow to achieve a goal. You could compare scripts to any of the following: 
+ 
+ #### RECIPES
+ By following the instructions in a recipe, one-by-one in the order set out, cooks can create a dish they have never made before.
+ 
+ ##### WRITING A SCRIPT 
+ 
+ > To write a script, you need to first state your goal and then list the tasks that need to be completed in order to achieve it.
+ 
+### Start with the big picture of what
+you want to achieve, and break that down into smaller steps.
+ 
+1. DEFINE THE GOAL 
+ First, you need to define the task you want to achieve. You can think of this as a puzzle for the computer to solve.
+ 
+2. DESIGN THE SCRIPT
+To design a script you split the goal out into a series of tasks that are going to be involved in solving this puzzle. This can be represented using a flowchart. You can then write down individual steps that the computer needs to perform in order to complete each individual task (and any information it needs to perform the task), rather like writing a recipe that it can follow.
+ 
+3. CODE EACH STEP
+Each of the steps needs to be written in a programming language that the computer understands. In our case, this is JavaScript.
 
+![flow](flow.PNG)
+ 
+ ![flow](flow1.PNG)
+ 
+ >Each time the script runs, it might only use a subset of all the instructions.
 
+ >Computers approach tasks in a different way than humans, so your instructions must let the computer solve the task prggrammatically.
+ 
+> To approach writing a script, break down your goal into a series of tasks and then work out each step needed to complete that task (a flowchart can help). 
+ 
+ # How Do Computers Fit In With The World Around Them
+ 
+ ### COMPUTERS CREATE MODELS OF THE WORLD USING DATA
+ 
+ 
+ ## OBJECTS (THINGS)
+ In computer programming, each physical thing in the world can be represented as an object.
+ 
+ #### Each object can have its own:
+• Properties
+• Events
+• Methods
+ 
+ PROPERTIES (CHARACTERISTICS)
+Each property has a name and a value, and each of these name/value pairs tells you something about each individual instance of the object. 
 
+ 
+ # EVENTS
+In the real world, people interact with objects. These interactions can change the values of the properties in these objects. 
+ 
+ #### WHAT DOES AN EVENT DO? 
+ Programmers choose which events they respond to. When a specific event happens, that event can be used to trigger a specific section of the code. 
+ Scripts often use different events to trigger different types of functionality. 
+ So a script will state which events the programmer wants to respond to, and what part of the script should be run when each of those events occur. 
+ 
+ # METHODS
+Methods represent things people need to do with objects. They can retrieve or update the values of an object's properties. 
+ 
+ #### WHAT DOES A METHOD DO? 
+ The code for a method can contain lots of instructions that together represent one task. When you use a method, 
+ you do not always need to know how it achieves its task; you just need to know how to ask the question and how
+ to interpret any answers it gives you.
+ 
+ 
+ # HOW HTML, CSS,& JAVASCRIPT FIT TOGETHER
+ 
+ ![how](how.PNG)
+ This is where the content of                         The CSS enhances the HTML page with rules that state               This is where we can change how the page 
+the page lives. The HTML gives                        how the HTML content is presented (backgrounds,borders,            behaves, adding interactivity. We will aim to keep as   
+the page structure and adds semantics.                 box dimensions, colors, fonts, etc.).                             much of our JavaScript as possible in separate files.
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
