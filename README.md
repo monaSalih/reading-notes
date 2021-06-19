@@ -2,13 +2,11 @@
 
 # Code 201 Reading Notes
 
-# Code 201 Reading Notes
-
->Following list of daily reading assignments in level 201
+ments in level 201
 
 File name | Link Page
 ------------ | -------------
-Read01 | [Read01](read01.md)
+Read01 | [read01](read01.md)
 read02 | [read02]()
 read03 | [read03]()
 read04 | [read04]()
