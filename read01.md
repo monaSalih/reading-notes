@@ -541,7 +541,7 @@ Methods represent things people need to do with objects. They can retrieve or up
  
  ![how](how.PNG)
  
- ## <HTML>
+ ## <HTML
  This is where the content of                         
 the page lives. The HTML gives                        
 the page structure and adds semantics.                
