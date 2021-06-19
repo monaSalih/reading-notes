@@ -419,8 +419,33 @@ The wireframes make design easier because you know what information needs to app
 > Let's look at an example of how design can be used to effectively communicate the services of a company.
 
 ![visual](visualD.PNG)
+ 
+ # Visual hierarchy
 
-
+### Most web users do not read entire pages. Rather, they skim to find information. You can use contrast to create a visual hierarchy that gets across your key message and helps users find what they are looking for.
+ 
+ # SIZE
+ Larger elements will grab users' attention first. For this reason it is a good idea to make headings and key points relatively large.
+ 
+ ![size](size.PNG)
+ 
+ # COLOR 
+ Foreground and background color can draw attention to key messages. Brighter sections tend to draw users' attention first. 
+ 
+ ![color](color.PNG)
+ 
+ # Style
+ An element may be the same size and color as surrounding content but have a different style applied to it to make it stand out
+ 
+ ![style](style.PNG)
+ 
+ # Images
+ Images create a high visual contrast and often attract the eye first. They can be used to draw attention to a specific message within the page. In some cases, the right image can succinctly reveal more than an entire page of text.
+ 
+ ![imge](imge.PNG)
+ 
+ 
+ # JAVASCRIPT & JQUERY
 
 
 
