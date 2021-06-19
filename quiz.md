@@ -1,22 +1,22 @@
 
-### Why we used HTML?
+### 1. Why we used HTML?
 
-### Why we used CSS?
+### 2. Why we used CSS?
 
-### what is the main tags in HTML?
+### 3. what is the main tags in HTML?
 
-### what the different between id and class attribute?
+### 4. what the different between id and class attribute?
 
-### what the different between HTML and HTML5 attribute?
+### 5. what the different between HTML and HTML5 attribute?
 
-### what is wireframe? why use it?
+### 6. what is wireframe? why use it?
 
-### what the most 4 thing effect in visual hierarchy when design web page?
+### 7. what the most 4 thing effect in visual hierarchy when design web page?
 
-### How JavaScript Makes Web Pages More Interactive(with small explination on each one)
+### 8. How JavaScript Makes Web Pages More Interactive(with small explination on each one)
 
-### what is script and how we create one?
+### 9. what is script and how we create one?
 
-### What the different between HTML, CSS, JS?
+### 10.What the different between HTML, CSS, JS?
 
 
