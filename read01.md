@@ -447,7 +447,7 @@ The wireframes make design easier because you know what information needs to app
  
  # JAVASCRIPT & JQUERY
   
- This book explains how JavaScript can be used in browsers to make websites more interactive, interesting, and user-friendly. You will also learn about jQuery because it makes writing JavaScript a lot easier.
+  JavaScript can be used in browsers to make websites more interactive, interesting, and user-friendly. You will also learn about jQuery because it makes writing JavaScript a lot easier.Learning to program with JavaScript involves:
  ![jsintro](jsintro.PNG)
  
 ## How JavaScript Makes Web Pages More Interactive
