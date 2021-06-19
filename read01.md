@@ -562,7 +562,7 @@ possible in separate files.
  
  
 
- ### Pleas after finish read this [Quiz page](quiz.md) to test your information
+ ### Pleas after finish read this go to [Quiz page](quiz.md) to test your information
  
  
  
