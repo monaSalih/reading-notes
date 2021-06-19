@@ -1,7 +1,8 @@
 ### This page is my mane page for new work we will have in:
-======================================
+
 # Code 201 Reading Notes
 
+# Code 201 Reading Notes
 
 >Following list of daily reading assignments in level 201
 
