@@ -233,6 +233,6 @@ SWITCH
   ![Switchexp](Switchexp.PNG) 
   
 
-  #### After reading this paper please visit [Quiz02](Quiz02.PNG) and answer the Qustion.
+  #### After reading this paper please visit [Quiz02](Quiz02.md) and answer the Qustion.
   #### GOOD LUCK
   
