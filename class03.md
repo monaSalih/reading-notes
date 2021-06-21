@@ -276,3 +276,6 @@ the parentheses is true.
 The key difference between a whi 1 e loop and a do whi 1 e loop is that the statements in the code block come before the condition. This means that those statements are run once whether or not the condition is met.
 
 ![dowhile](dowhile.PNG)
+
+#### After reading this paper please visit [Quiz03](Quiz03.md) and answer the Qustion.
+  
