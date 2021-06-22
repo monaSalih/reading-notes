@@ -221,3 +221,6 @@ A common step in many interview processes involves pair programming between a cu
 
 6. Work environment readiness
 Many companies that utilize pair programing expect to train fresh hires from CS-degree programs on how they operate to actually deliver a product.
+
+
+After reading this paper please visit [Quiz04](Quiz04.md) and answer the Qustion.
