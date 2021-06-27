@@ -13,7 +13,7 @@ the two essential metrics for gauging popularity are:
 
 To define the same properties between many objects, you'll want to use a constructor function. Below is a table that summarizes a JavaScript representation of an EpicFailVideo object.
 
-![num1](num1.PNG)
+![n1](n1.PNG)
 
 Here's an implementation of the EpicFailVideo constructor function.
 
@@ -118,7 +118,8 @@ row using the opening <tr> tag.
 
 #### <td>
 Each cell of a table is represented using a <td> element
-![n1](n1.PNG)
+
+![n2](n2.PNG)
 ## Table heading
 
 #### <th>
@@ -137,8 +138,7 @@ The body should sit inside the <tbody> element.
 
 ### <tfoot>
 The footer belongs inside the <tfoot> element.
-
-![n2](n2.PNG)
+![n3](n3.PNG)
 
 ## SUMMARY
 
@@ -165,24 +165,19 @@ JavaScript is designed on a simple object-based paradigm. An object is a collect
 a shorter syntax for method definitions on objects initializers is introduced. It is a shorthand for a funct
 
 ## Declarating a function
-
 ![n4](n4.PNG)
 
 ## Calling Function
-
 ![n5](n5.PNG)
 
 ## Declaration Function That need information
 
-
 ![n6](n6.PNG)
 
 ## Getting a single value out of a function
-
 ![n7](n7.PNG)
 
 ## Getting multiple values out of a function
-
 ![n8](n8.PNG)
 
 
@@ -215,18 +210,16 @@ Global variables are stored in memory for as long as the web page is loaded into
 variables.
 
 ## Creating an object
-
 ![n9](n9.PNG)
 
 ## Accessing an object and dot notation
-
 ![m1](m1.PNG)
 
 ## Creating an object: constructor notation
-
 ![m2](m2.PNG)
 
 ## Updating an object
+
 ![m3](m3.PNG)
 
 
