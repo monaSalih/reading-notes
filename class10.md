@@ -243,7 +243,7 @@ II If there is an exception, run this code
 finally {
 //II This always gets executed
 }
-
+```
 * TRY
 First, you specify the code that you think might throw an exception within the try block.
 
@@ -252,8 +252,8 @@ If the try code block throws an
 exception, catch steps in with an
 alternative set of code. 
 
-* FI NALLY
+* FINALLY
 The contents of the fina11y code block will run either way - whether the try block succeeded or failed. 
 
 
-After finish this webpage please [clickHere](Quiz.md)
+After finish reading pleas [click here](Quiz10.md) to check your information
