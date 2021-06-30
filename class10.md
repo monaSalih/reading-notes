@@ -6,7 +6,7 @@
 
 ##### To find the source of an error, it helps to know how scripts are processed.The order in which statements are executed can be complex; some tasks cannot complete until another statement or function has been run: 
 
-![er1](er1.PNG)
+  ![er1](er1.PNG)
 
 This script above creates a greeting message, then writes it to an alert box (see right-hand page). In order to create that greeting, two functions are used: greetUser () and getName () .
 
@@ -72,14 +72,14 @@ declared
 ## UNDERSTANDING SCOPE
 
 In the interpreter, each execution context has its own va ri ables object.It holds the variables, functions, and parameters available within it.Each execution context can also access its parent's v a ri ables object. 
-![er2](er2.PNG)
+ ![er2](er2.PNG)
 
 
 ## UNDERSTANDING ERRORS
 
 If a JavaScript statement generates an error, then it throws an exception. At that point, the interpreter stops and looks for exception-handl ing code.
 
-![er3](er3.PNG)
+ ![er3](er3.PNG)
 
 
 ## ERROR OBJECTS
@@ -88,18 +88,18 @@ Error objects can help you find where your mistakes are and browsers have tools 
 
 When an Error object is created, it will contain the following properties: 
 
-![er4](er4.PNG)
+ ![er4](er4.PNG)
 
 There are seven types of built-in error objects in JavaScript. You'll see them on the next two pages:
 
-![er5](er5.PNG)
+ ![er5](er5.PNG)
 
 
 1. In the red on the left, you can see this is aSyntaxError. An unexpected character was found
 
 2. On the right, you can see that the error happened in a file called errors .js on line 4.
 
-![er6](er6.PNG)
+ ![er6](er6.PNG)
 
 ## ERROR OBJECTS CONTINUED
 
@@ -198,7 +198,7 @@ CHROM E/ OPERA On a PC
     # HOW TO LOOK AT ERRORS IN CHROME
 
     The console will show you when there is an error in your JavaScript. It also displays the line where it became a problem for the interpreter
-![er7](er7.PNG)
+ ![er7](er7.PNG)
 
 1. The Console option is selected.
 
@@ -213,7 +213,7 @@ number are shown on the right-hand side of the console.
 
 You can also just type code into the console and it will show you a result.
 
-![er8](er8.PNG)
+ ![er8](er8.PNG)
 
 ## GROUPING MESSAGES
 
@@ -255,3 +255,5 @@ alternative set of code.
 * FI NALLY
 The contents of the fina11y code block will run either way - whether the try block succeeded or failed. 
 
+
+After finish this webpage please [clickHere](Quiz.md)
