@@ -4,7 +4,7 @@
 
 You can control the size of an image using the width and height properties in CSS, just like you can for any other box
 
-![ff1](ff1.md)
+ ![ff1](ff1.PNG)
 
 ## Aligning images Using Css
 
@@ -12,7 +12,7 @@ Rather than using the <img> element's align attribute, webpage authors are incre
  1. The float property is added to the class that was created to represent the size of the image (such as the small class in our example). 
  2. New classes are created with names such as align-left or align-right to align the images to the left or right of the page. These class names are used in addition to classes that indicate the size of the image.
 
- ![ff1](ff2.md)
+  ![ff1](ff2.PNG)
 
  ## Centering images Using Css
 Once it has been made into a block-level element, there are two common ways in which you can horizontally center an image:
@@ -22,7 +22,7 @@ Once it has been made into a block-level element, there are two common ways in w
 ## background-image
 
 The background-image property allows you to place an image behind any HTML element. This could be the entire page or just part of the page. By default, a background image will repeat to fill the entire box.The path to the image follows the letters url, and it is put inside parentheses and quotes
- ![ff1](ff3.md)
+ ![ff1](ff3.PNG)
 
  ## background-repeat // background-attachment
  The background-repeat property can have four values: 
@@ -38,7 +38,7 @@ The background-image property allows you to place an image behind any HTML eleme
   ## background-position
   This property usually has a pair of values. The first represents the horizontal position and the second represents the vertical.
 
-![ff1](ff4.md)
+![ff1](ff4.PNG)
 
 ## shorthand//background
 
@@ -49,21 +49,21 @@ can miss any value if you do not want to specify it:
 3. background-repeat
 4. background-attachment
 5. background-position
-![ff1](ff5.md)
+![ff1](ff5.PNG)
 
 
 ## Images rollovers & Sprites
 
 Using CSS, it is possible to create a link or button that changes to a second style when a user moves their mouse over it (known as a rollover) and a third style when they click on it
 
-![ff1](ff6.md)
+![ff1](ff6.PNG)
 
 
 ## Contrast of background images
 
 If you want to overlay text on a background image, the image must be low contrast in order for the text to be legible.
 
-![ff1](ff7.md)
+![ff1](ff7.PNG)
 
 ### Nots
 
@@ -87,7 +87,7 @@ Search engine optimization (or SEO) is the practice of trying to help your site 
 ## On-Page SEO
 
 
-![ff1](ff8.md)
+![ff1](ff8.PNG)
 
 1. Page Title
 The page title appears at the top of the browser window or on the tab of a browser. It is specified in the title> element which lives inside the <head> element.
