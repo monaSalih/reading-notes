@@ -33,266 +33,7 @@ No matter how researchers arranged the data, though, it was almost impossible to
 
  * Second, the good teams all had high ‘‘average social sensitivity’’ — a fancy way of saying they were skilled at intuiting how others felt based on their tone of voice, their expressions and other nonverbal cues.
 
- # Transforms
-
- The transform property comes in two different settings, two-dimensional and three-dimensional. Each of these come with their own individual properties and values.
-
-
-#  Transform Syntax
-The actual syntax for the transform property is quite simple, including the transform property followed by the value. The value specifies the transform type followed by a specific amount inside parentheses.
-
-```
-div {
-  -webkit-transform: scale(1.5);
-     -moz-transform: scale(1.5);
-       -o-transform: scale(1.5);
-          transform: scale(1.5);
-}
-
-```
-
-## 2D Transforms#two-
-
-### 2D Rotate
-The transform property accepts a handful of different values. The rotate value provides the ability to rotate an element from 0 to 360 degrees. Using a positive value will rotate an element clockwise, and using a negative value will rotate the element counterclockwise. 
-
-```
->HTML
-<figure class="box-1">Box 1</figure>
-<figure class="box-2">Box 2</figure>
-
-```
-
-```
->CSS
-.box-1 {
-  transform: rotate(20deg);
-}
-.box-2 {
-  transform: rotate(-55deg);
-}
-
-```
-
-## 2D Scale
-Using the scale value within the transform property allows you to change the appeared size of an element. The default scale value is 1, therefore any value between .99 and .01 makes an element appear smaller while any value greater than or equal to 1.01 makes an element appear larger.
-
-```
-> HTML
-<figure class="box-1">Box 1</figure>
-<figure class="box-2">Box 2</figure>
-
-              
-```
-
-```
-CSS
-.box-1 {
-  transform: scale(.75);
-}
-.box-2 {
-  transform: scale(1.25);
-
-```
-
-## 2D Translate
-
-The distance values used within the translate value may be any general length measurement, most commonly pixels or percentages. Positive values will push an element down and to the right of its default position while negative values will pull an element up and to the left of its default position.
-
-```
-> HTML
-<figure class="box-1">Box 1</figure>
-<figure class="box-2">Box 2</figure>
-<figure class="box-3">Box 3</figure>
-            
-```
-
-```
->CSS
-.box-1 {
-  transform: translateX(-10px);
-}
-.box-2 {
-  transform: translateY(25%);
-}
-.box-3 {
-  transform: translate(-10px, 25%);
-}
-
-```
-
-## Combining Transforms
-
-```
-> HTML
-<figure class="box-1">Box 1</figure>
-<figure class="box-2">Box 2</figure>
-          
-```
-
-```
->CSS
-
-.box-1 {
-  transform: rotate(25deg) scale(.75);
-}
-.box-2 {
-  transform: skew(10deg, 20deg) translateX(20px);
-}
-
-```
-
-## Transform Origin
-
-The transform-origin property can accept one or two values. When only one value is specified, that value is used for both the horizontal and vertical axes. If two values are specified, the first is used for the horizontal axis and the second is used for the vertical axis.
-
-
-```
-> HTML
-<figure class="box-1">Box 1</figure>
-<figure class="box-2">Box 2</figure>
-<figure class="box-3">Box 3</figure>
-<figure class="box-4">Box 3</figure>
-        
-```
-
-```
->CSS
-
-.box-1 {
-  transform: rotate(15deg);
-  transform-origin: 0 0;
-}
-.box-2 {
-  transform: scale(.5);
-  transform-origin: 100% 100%;
-}
-.box-3 {
-  transform: skewX(20deg);
-  transform-origin: top left;
-}
-.box-4 {
-  transform: scale(.75) translate(-10px, -10px);
-  transform-origin: 20px 50px;
-}
-
-
-```
-
-## Perspective
-
-The perspective of an element can be set in two different ways. One way includes using the perspective value within the transform property on individual elements, while the other includes using the perspective property on the parent element residing over child elements being transformed.
-
-```
->HTML
-
-<figure class="box">Box 1</figure>
-<figure class="box">Box 2</figure>
-<figure class="box">Box 3</figure>
-```
-
-```              
->CSS
-
-.box {
-  transform: perspective(200px) rotateX(45deg);
-}
-```
-
-## 3D Transforms
-
-3D Rotate
-So far we’ve discussed how to rotate an object either clockwise or counterclockwise on a flat plane. With three-dimensional transforms we can rotate an element around any axes. To do so, we use three new transform values, including rotateX, rotateY, and rotateZ.
-
-```
->HTML
-
-<figure class="box-1">Box 1</figure>
-<figure class="box-2">Box 2</figure>
-<figure class="box-3">Box 3</figure>
-
-```
-
-```              
->CSS
-.box-1 {
-  transform: perspective(200px) rotateX(45deg);
-}
-.box-2 {
-  transform: perspective(200px) rotateY(45deg);
-}
-.box-3 {
-  transform: perspective(200px) rotateZ(45deg);
-}
-
-```
-
-## 3D Skew
-Skew is the one two-dimensional transform that cannot be transformed on a three-dimensional scale. Elements may be skewed on the x and y axis, then transformed three-dimensionally as wished, but they cannot be skewed on the z axis.
-
-  ## Transitions & Animations
-
-Animations within CSS3 allow the appearance and behavior of an element to be altered in multiple keyframes. Transitions provide a change from one state to another, while animations can set multiple points of transition upon different keyframes.
-
-## Transitions
-As mentioned, for a transition to take place, an element must have a change in state, and different styles must be identified for each state. The easiest way for determining styles for different states is by using the :hover, :focus, :active, and :target pseudo-classes.
-
-```
-.box {
-  background: #2db34a;
-  transition-property: background;
-  transition-duration: 1s;
-  transition-timing-function: linear;
-}
-.box:hover {
-  background: #ff7b29;
-}
-
-```
-
-## Transitional Properties
-It is important to note, not all properties may be transitioned, only properties that have an identifiable halfway point. Colors, font sizes, and the alike may be transitioned from one value to another as they have recognizable values in-between one another. 
-
- A handful of the more popular transitional properties include the following.
- ![htm](htm4.PNG)
-
- ## Transition Duration
-The duration in which a transition takes place is set using the transition-duration property. The value of this property can be set using general timing values, including seconds (s) and milliseconds (ms). These timing values may also come in fractional measurements, .2s for example.
-```
-.box {
-  background: #2db34a;
-  border-radius: 6px;
-  transition-property: background, border-radius;
-  transition-duration: .2s, 1s;
-  transition-timing-function: linear;
-}
-.box:hover {
-  background: #ff7b29;
-  border-radius: 50%;
-}
-
-```
-
-Transition Delay
-
-The delay sets a time value, seconds or milliseconds, that determines how long a transition should be stalled before executing. As with all other transition properties, to delay numerous transitions, each delay can be declared as comma separated values.
-```
-.box {
-  background: #2db34a;
-  border-radius: 6px
-  transition-property: background, border-radius;
-  transition-duration: .2s, 1s;
-  transition-timing-function: linear, ease-in;
-  transition-delay: 0s, 1s;
-}
-.box:hover {
-  background: #ff7b29;
-  border-radius: 50%;
-}
-
-
-```
-
+ 
 ## Animations
 
 ### Animations Keyframes
@@ -571,3 +312,95 @@ see these following code and try to simulate theme
 [404](http://codepen.io/kieranfivestars/pen/MYdQxX)
 
 [Pure CSS Bounce Animation](http://codepen.io/dp_lewis/pen/gCfBv)
+
+
+# transforms
+
+![transform](https://miro.medium.com/max/900/1*_6MfwckxNfQTca9SiG8MdQ.png)
+
+> are a collection of functions that allow to shape elements in particular ways:
+
+* translate: moves the element along up to 3 axis (x,y and z)
+* rotate: moves the element around a central point
+* scale: resizes the element
+* skew: distorts the element
+
+## transform properties
+
+
+There are 3 CSS transform properties:
+
+* transform defines which transform function to use (translate, rotate, scale…)
+* transform-origin allows to modify the origin point of a transformation (works like background positions)
+* transform-style is for 3d settings
+
+## translate
+
+![translate](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate()/translate.png)
+
+translate() function allows to move an element across the plane (on the x and y axis)
+for example:
+```
+@keyframes translating {
+  0%  { transform: translate(0, 0);}
+  25% { transform: translate(240px, 0);}
+ 
+}
+
+
+```
+
+## rotate
+
+![rotate](https://html-css-js.com/images/tiles/css-transform.jpg)
+
+The rotate() function allows to make an element revolve around a fixed point. 
+
+for example:
+```
+@keyframes rotating {
+  0%  { transform: rotate(0deg);}
+  100%{ transform: rotate(360deg);}
+}
+
+
+```
+
+## scale
+
+![scale](https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/74953e3d-618f-4225-97e0-cec2d97f8764/transform-scale.png)
+
+The scale() function allows to resize an element,The range of possible value is:
+
+* 1: the element retains its original size
+* 2: the element doubles in size
+* 0.5: the element is half of its size
+* 0: the element basically disappears (as its height and width are equal to zero)
+* -1: the element is mirrored
+
+for example:
+```
+@keyframes scaling {
+  0%  { transform: scale(1);}
+  20%{ transform: scale(2);}
+  40%{ transform: scale(0.5);}
+  60%{ transform: scale(0);}
+  80%{ transform: scale(-1);}
+  
+}
+```
+
+## skew
+
+![skew](https://cdn.educba.com/academy/wp-content/uploads/2020/06/CSS-skew.jpg)
+
+The skew() function allows to distort an element, by dragging its sides along a line basically.
+for example:
+```
+0%  { transform: skew(0deg);}
+  20% { transform: skew(10deg);}
+  40% { transform: skew(45deg);}
+  60% { transform: skew(90deg);}
+  80% { transform: skew(120deg);}
+  100%{ transform: skew(0deg);}
+```
