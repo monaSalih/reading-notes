@@ -1,27 +1,11 @@
-### This page is my mane page for new work we will have in:
+# Reading Notes
 
-# Code 201 Reading Notes
+## In this repo you can found all summary i do it during this scholarship from level 102 to 401 
 
-ments in level 201
+Following you can found list of linked web page for previous work to each level:
 
-File name | Link Page
------------- | -------------
-Read01 | [class01](class01.md)
-read02 | [read02](class02.md)
-read03 | [read03](class03.md)
-read04 | [read04](class04.md)
-read05 | [read05](class05.md)
-read06 | [read06](Class06.md)
-read07 | [read07](Class07.md)
-read08 | [read08](Class08.md)
-Read09 | [Read09](class09.md)
-read10 | [read10](class10.md)
-read11 | [read11](Class11.md)
-read12 | [read12](Class12.md)
-read13 | [read13](Class13.md)
-read14 | [read14](Class14a.md) // [read14b](Class14b.md)
-read15 | [read15]()
+* [Code 102](level102/Code102ReadingNotes.md)- Intro to Software Development
 
+* [Code 201](level201/201Level.md) - Foundations of Software Development
 
-## Here you can found all pages for [level 102](Code102ReadingNotes.md) 
-
+* [Code 301](level301/301ReadNote.md) - Intermediate Software Development
