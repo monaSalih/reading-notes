@@ -42,8 +42,8 @@ read14 | [read14](level201/Class14a.md) // [read14b](level201/Class14b.md)
 File name | Link Page
 ------------ | -------------
 Read01 | [Class01](level301/Class01.md)
-read02 | [read02](level301/class02.md)
-read03 | [read03](level301/class03.md)
+Read01 | [Class02](level301/Class02.md)
+read03 | [read03](level301/Class03.md)
 read04 | [read04](level301/class04.md)
 read05 | [read05](level301/class05.md)
 read06 | [read06](level301/Class06.md)
