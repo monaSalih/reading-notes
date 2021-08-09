@@ -90,3 +90,5 @@ Also what make the state different compared to props. State is just a snapshot o
 * We change state inside application When re-render 
 
 * we can Store using state counter app
+
+## i want to learn more about react native 
