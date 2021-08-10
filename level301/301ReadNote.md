@@ -5,10 +5,10 @@ Code 301 Reading Notes
 File name | Link Page
 ------------ | -------------
 Read01 | [Class01](Class01.md)
-read02 | [read02](class02.md)
-read03 | [read03](class03.md)
-read04 | [read04](class04.md)
-read05 | [read05](class05.md)
+read02 | [Class02](class02.md)
+read03 | [Class03](Class03.md)
+read04 | [Class04](Class04.md)
+read05 | [Class05](class05.md)
 read06 | [read06](Class06.md)
 read07 | [read07](Class07.md)
 read08 | [read08](Class08.md)
