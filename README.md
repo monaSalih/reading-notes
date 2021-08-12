@@ -43,10 +43,10 @@ File name | Link Page
 ------------ | -------------
 Read01 | [Class01](level301/Class01.md)
 Read01 | [Class02](level301/Class02.md)
-read03 | [read03](level301/Class03.md)
+read03 | [Class03](level301/Class03.md)
 read04 | [Class04](level301/Class04.md)
 read05 | [Class05](level301/Class05.md)
-read06 | [read06](level301/Class06.md)
+read06 | [Class06](level301/Class06.md)
 read07 | [read07](level301/Class07.md)
 read08 | [read08](level301/Class08.md)
 Read09 | [Read09](level301/class09.md)
