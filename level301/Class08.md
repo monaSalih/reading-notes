@@ -33,3 +33,5 @@ Bad, chatty API, as defined by Reese, is any API that requires consumer to do mo
 ✔ 201 (Created).
 *  What status code does a successful DELETE request return?
 ✔ 204 (No Content)
+
+<!-- work -->
