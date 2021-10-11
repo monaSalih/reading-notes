@@ -65,7 +65,7 @@ File name | Link Page
 Read01 | [Class01](level401/ClassRead01.md)
 Read01 | [Class02](level401/ClassRead02.md)
 read03 | [Class03](level401/ClassRead03.md)
-read04 | [Class04](level401/Class04.md)
+read04 | [Class04](level401/ClassRead04.md)
 read05 | [Class05](level401/Class05.md)
 read06 | [Class06](level401/Class06.md)
 read07 | [Class07](level401/Class07.md)
