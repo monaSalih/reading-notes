@@ -1,6 +1,6 @@
 # Test your self 📢
 
-# What the factoer used to evaluate the efficiency?
+# What the factors used to evaluate the efficiency?
 
 # What is a Linked List,Singly,Head?
 
