@@ -159,11 +159,11 @@ you are doing enough testing if the following is true:
 
 ## Big O Notation
 Back to 2009 they mesure how arrive faster internet or the  pigeon they found the pigeon arrive faster than the internet 
-What's the runtime of this? Well it's kind of an interesting question, but you
-03:29
-could describe it one of two ways. One of which, one way you can describe it is O:
+HOW MASURE BIG O:
 
 Big O is essentially an equation that describes
-* What's the runtime of this? Well it's kind of an interesting question, but you
-03:29
-could describe it one of two ways. One of which, one way you can describe it is O
+* What's the runtime of this?one way you can describe it is O
+Claculate Big O:
+1. first one is if you have two different steps in your algorithm, you add up those steps.
+2.  second rule is that you drop constants
+3.  The third rule is that if you have different inputs you're usually going to use different variables to represent them.
