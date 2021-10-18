@@ -206,3 +206,11 @@ Python built-in functions to scope and namespaces:
 *  If you call dir() with an argument, then the function attempts to return a list of valid attributes for that object
 
 ### BIG O notation 
+✨Computiatinal Complexity
+📈 O(1) - Constant Complexity
+📈 O(n) - Linear Complexity
+📈 O(n2) - Quadratic Complexity
+📈 O(log n) - Logarithmic Complexity
+📈 O(n3) - Cubic Complexity
+📈 O(n log n) - Linearithmic Complexity
+📈 O(2n) - Exponential Complexity
