@@ -207,6 +207,7 @@ Python built-in functions to scope and namespaces:
 
 ### BIG O notation 
 ✨Computiatinal Complexity
+
 📈 O(1) - Constant Complexity
 
 📈 O(n) - Linear Complexity
