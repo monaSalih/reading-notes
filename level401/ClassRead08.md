@@ -4,7 +4,7 @@
 
 #### List comprehension:
 is a powerful and concise method for creating lists in Python that becomes essential the more you work with lists, and lists of lists.
-
+<!-- jrfejferjijfoejf -->
 
 ## Syntax
 Based on the following example:
