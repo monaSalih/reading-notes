@@ -27,7 +27,7 @@ This means that the first item added in the stack will be the last item popped o
 Last In First Out
 
 This means that the last item added to the stack will be the first item popped out of the stack.
-![sds](http://bluegalaxy.info/codewalk/wp-content/uploads/2018/08/stack.jpg)
+
 
 ## Stack Visualization
 
@@ -154,6 +154,8 @@ When you remove an item from a queue, you use the dequeue action. This is done w
 
 ### Peek O(1)
 When conducting a peek, you will only be inspecting the front Node of the queue
+
+✨✨ After finish read this articule click [here](classQues10.md) to test you information?
 <!-- ![,dcsd]()
 ![]()
 ![]()
