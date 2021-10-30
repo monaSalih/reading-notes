@@ -131,7 +131,7 @@ simple linear regression suffers from two major flaws:
 
 ![](https://elitedatascience.com/wp-content/uploads/2017/02/noisy-sine-linear-regression.png)
 
-
+__________________________________
 2. Regularization in Machine Learning
 Regularization is a technique used to prevent overfitting by artificially penalizing model coefficients.
 
@@ -156,16 +156,9 @@ Regularization is a technique used to prevent overfitting by artificially penali
 4. A stronger penalty leads to more coefficients pushed to zero.
 
 * Ridge Regression:
-1. Ridge regression penalizes the squared size of coefficients.
 
-2. Practically, this leads to smaller coefficients, but it doesn't force them to 0.
-
-3. In other words, Ridge offers feature shrinkage.
-
-4. The "strength" of the penalty should be tuned.
-
-5. A stronger penalty leads to coefficients pushed closer to zero.
-
+ Ridge regression penalizes the squared size of coefficients.
+__________________________________
 * Elastic-Net:is a compromise between Lasso and Ridge.
 
 1. Elastic-Net penalizes a mix of both absolute and squared size.
@@ -173,13 +166,13 @@ Regularization is a technique used to prevent overfitting by artificially penali
 2. The ratio of the two penalty types should be tuned.
 
 3. The overall strength should also be tuned.
-
+__________________________________
 4. Decision Tree Algos:
 Decision trees model data as a "tree" of hierarchical branches. They make branches until they reach "leaves" that represent predictions.
 ![](https://elitedatascience.com/wp-content/uploads/2017/06/Decision-Tree-Example.jpg)
 
 > branching structure, decision trees can easily model nonlinear relationships.
-
+__________________________________
 5. Tree Ensembles
 Ensembles are machine learning methods for combining predictions from multiple separate models.
 
@@ -191,7 +184,7 @@ Bagging attempts to reduce the chance overfitting complex models.
 2. A strong learner is a model that's relatively unconstrained.
 
 3. Bagging then combines all the strong learners together in order to "smooth out" their predictions.
-
+__________________________________
 * Boosting
 Boosting attempts to improve the predictive flexibility of simple models.
 
@@ -210,10 +203,11 @@ when the base models are decision trees, they have special names: random forests
 
 ![](https://elitedatascience.com/wp-content/uploads/2017/06/Random-Forest-Color-Icon.png)
 
+
 * Boosted trees
 ![](https://elitedatascience.com/wp-content/uploads/2017/06/Boosted-Tree-Color-Icon.png)
 
-
+__________________________________
 ### Model Training
 
 Model training is the phase in the data science development lifecycle where practitioners try to fit the best combination of weights and bias to a machine learning algorithm to minimize a loss function over the prediction range.
