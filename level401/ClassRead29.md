@@ -29,7 +29,7 @@ LOGOUT_REDIRECT_URL = 'home'
 <head>
   <meta charset="utf-8">
   <title>
-  {% block title %}
+  {% block content %}
   Django Auth Tutorial
   
   {% endblock %}</title>
