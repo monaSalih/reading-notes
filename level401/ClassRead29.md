@@ -28,7 +28,8 @@ LOGOUT_REDIRECT_URL = 'home'
 <html>
 <head>
   <meta charset="utf-8">
-  <title>{% block title %}Django Auth Tutorial{% endblock %}</title>
+  <title>{% block title %}Django Auth Tutorial}
+  {% endblock %}</title>
 </head>
 <body>
   <main>
