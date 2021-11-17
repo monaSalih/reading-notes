@@ -1,4 +1,4 @@
-# Django Best Practices: Custom User Model
+<!-- # Django Best Practices: Custom User Model
 
 ## Setup
 - creat file 
@@ -23,7 +23,7 @@ LOGOUT_REDIRECT_URL = 'home'
 - Create a registration folder as that's where Django will look for the log in template. We will also put our signup.html template in there.
 **base.html**
 ```
-<!-- templates/base.html -->
+<!-- templates/base.html 
 <!DOCTYPE html>
 <html>
 <head>
@@ -115,4 +115,4 @@ class SignUpView(CreateView):
     template_name = 'registration/signup.html'
 ```
 
-click [HERE](https://github.com/wsvincent/djangox) to jump to repo customize user model 
+click [HERE](https://github.com/wsvincent/djangox) to jump to repo customize user model  -->
