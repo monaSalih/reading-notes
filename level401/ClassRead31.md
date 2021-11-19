@@ -140,6 +140,7 @@ class BookAPIView(generics.ListAPIView):
 
 **Serializers**
 serializers.py file within our api app.
+
 ```
 (library) $ touch api/serializers.py
 Then update it as follows in a text editor.
